@@ -7,14 +7,14 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'><link rel="stylesheet" href="./style.css">
 
 </head>
+
 <style>
-  @import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 body {
   margin: 0;
-  background-color: #f3ecda;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23b59d81' fill-opacity='0.52' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-}
+  background: linear-gradient(to right, #ff00ff, #ae4bcf);
+ }
 
 .popover {
   font-family: 'Roboto Condensed';
@@ -85,18 +85,19 @@ body {
   font-size: 1.1rem;
 }
 </style>
+
 <body>
 <!-- partial:index.partial.html -->
 <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
 
 <div class="container-fluid">
   
-  <div class="row d-flex align-items-stretch justify-content-end">
-    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;"><div class="card h-100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam dolor eum, eveniet nostrum porro ratione maxime aspernatur facilis nam fugit vitae</div></div>
-    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;"><div class="card h-100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, quod?</div></div>
-    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi atque officia quo animi numquam, minus natus laborum eveniet ut eos.</div>
-    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sapiente placeat tempore recusandae, ea in?</div>
-  </div>
+  <!-- <div class="row d-flex align-items-stretch justify-content-end">
+    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;"><div class="card h-100"></div></div>
+    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;"><div class="card h-100"></div></div>
+    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;"></div>
+    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;"></div>
+  </div> -->
   
   
   <div class="book-card-line row d-flex align-items-stretch justify-content-start my-5">
@@ -194,7 +195,7 @@ body {
 <script src='https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js'></script><script  src="./script.js"></script>
 
 </body>
- <script>
+<script>
 /*$('.card-book-link img').popover({
   container:  'body',
   placement:  'right',
@@ -214,5 +215,5 @@ body {
         $(this).parents(".popover").popover('hide');
     });
 
- </script>
+</script>
 </html>
