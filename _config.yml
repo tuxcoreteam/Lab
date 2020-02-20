@@ -1,15 +1,15 @@
 # Site settings
-title: Pudhina
+title: Tux
 description: >
-  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
+  Lorem.
 
 url: familiatux.space 
 
 author:
-  fullname: Pudhina
-  github: github
-  linkedin: linkedin
-  email: example@email.com
+  fullname: Tux
+  github: #
+  linkedin: #
+  email: #
 
 
 # Syntax highlighting
