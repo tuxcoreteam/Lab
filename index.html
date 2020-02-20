@@ -37,9 +37,9 @@
 </ul>
 </header>
 <h1 class="page-title">
-<div class="page-title__text">FALA DEV</div>
-<div class="page-title__subtitle">PESQUISE POR VAGAS E LIVROS</div>
+<h3 class="page-title__text" id="efeito">FALA DEV</h3>
 </h1>
+
 
 <p><img src="/assets/img/mascote.png" id="about-img" /></p>
 
@@ -54,4 +54,42 @@
 <script src="/assets/vendor/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </body>
+<STYle>
+	.page-title__text {
+		position: relative;
+		text-align: center;
+		font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+		font-size: 2rem;
+		color: #070101;
+		height: 80px;
+	}
+	  @keyframes blink {
+		0%, 100% {
+		  opacity: 1;
+		}
+		50% {
+		  opacity: 0;
+		}
+	  }
+	 h3::after {
+		content: '|';
+		opacity: 1;
+		margin-left: 5px;
+		display: inline-block;
+		animation: blink .7s infinite;
+	  }
+
+</STYle>
+<Script>
+	const titulo = document.querySelector("#efeito");
+	 typeWriter(titulo);
+	
+	function typeWriter(elemento) {
+	const textoArray = elemento.innerHTML.split('');
+		elemento.innerHTML = '';
+		for(let i = 0; i < textoArray.length; i++) {
+		  setTimeout(() => elemento.innerHTML += textoArray[i], 75* i);
+		}
+	}
+	</Script>
 </html>
