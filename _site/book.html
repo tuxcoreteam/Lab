@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>BOOK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<style>
+  @import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+body {
+  margin: 0;
+  background-color: #f3ecda;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23b59d81' fill-opacity='0.52' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.popover {
+  font-family: 'Roboto Condensed';
+}
+.popover .popover-header {
+  font-size: 1rem;
+}
+
+.book-cell {
+  margin-bottom: 2rem;
+}
+.book-cell .card {
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#FFFFFF));
+  background: linear-gradient(to bottom, transparent 0%, #FFFFFF 100%);
+  border: none;
+}
+.book-cell .card .card-book-link {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.book-cell .card .card-book-link .badge-discount {
+  /*position: absolute;
+  right: 0;
+  bottom: -.5rem;
+  padding: .5rem;*/
+}
+.book-cell .card .card-book-link .badge-new {
+  /*position: absolute;
+  left: 0;
+  bottom: -.5rem;
+  padding: .5rem;*/
+}
+.book-cell .card .card-book-link img {
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.book-cell .card .card-book-link img:hover {
+  -webkit-transform: translate(0, -15px);
+          transform: translate(0, -15px);
+  box-shadow: 0 5px 20px 0px rgba(50, 50, 50, 0.7);
+}
+.book-cell .card .card-book-link img:before {
+  content: "123";
+}
+.book-cell .card .card-body {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.book-cell .card .card-body .card-title {
+  font-size: 1.1rem;
+}
+.book-cell .card .card-body .book-autor {
+  color: #990000;
+}
+.book-cell .card .card-body .book-price {
+  font-size: 1.2rem;
+  color: #000000;
+}
+.book-cell .card .card-body .book-price .price-through {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+}
+.book-cell .card .card-body .book-price .badge {
+  font-size: 1.1rem;
+}
+</style>
+<body>
+<!-- partial:index.partial.html -->
+<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+<div class="container-fluid">
+  
+  <div class="row d-flex align-items-stretch justify-content-end">
+    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;"><div class="card h-100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam dolor eum, eveniet nostrum porro ratione maxime aspernatur facilis nam fugit vitae</div></div>
+    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;"><div class="card h-100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, quod?</div></div>
+    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi atque officia quo animi numquam, minus natus laborum eveniet ut eos.</div>
+    <div class="col" style="width: 150px; border: 1px solid #000; margin: 0.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sapiente placeat tempore recusandae, ea in?</div>
+  </div>
+  
+  
+  <div class="book-card-line row d-flex align-items-stretch justify-content-start my-5">
+<!--   1.1   -->
+    <div class="book-cell col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="card d-flex flex-column justify-content-end text-center border-">
+        <a class="card-book-link d-flex flex-column align-items-center justify-content-end" href="#">
+          <img src="http://blagozvon.ru/upload/iblock/da0/da05dfa60546b0e2c5755593ee5c59e5.jpg" alt="Card image cap"  data-toggle="popover" data-content="<h5>Тайна Туринской Плащаницы и Пасха Христова</h5><p>Пасха Христова — величайший праздник православных христиан. Это день победы добра над злом, жизни над смертью, воистину это день Торжества Церкви Христовой. В первой части книги мы поместили материалы, рассказывающие об историческом пути Туринской Плащаницы и о научных исследованиях святыни. Вторая часть книги представляет собой размышления (отрывки из проповедей) архимандрита Наума (Байбородина), посвященные Пасхе Христовой.</p>">
+        </a>
+        <div class="card-body d-flex flex-column p-2">
+          <a class="card-title text-dark font-weight-bold" href="#">Тайна Туринской Плащаницы и Пасха Христова</a>
+          <a class="book-autor card-text flex-grow-1 text-muted" href="#">Архимандрит Наум (Байбородин)</a>
+          <div class="card-text book-price text-center font-weight-bold my-3">188 р.</div>
+          <div class="mb-2">
+            <a href="#" class="btn btn-warning" title='В корзину'><i class="fas fa-cart-arrow-down text-muted"></i>&nbsp;Купить</a>
+            <a href="#" class="btn btn-outline-secondary"  title='Отложить товар'><i class="far fa-star text-muted"></i></i></a>
+          </div>
+        </div>
+       </div>
+    </div>
+<!--   1.2   -->
+    <div class="book-cell col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="card d-flex flex-column justify-content-end text-center border-">
+        <a class="card-book-link d-flex flex-column align-items-center justify-content-end" href="#">
+          <div class="">
+            <span class="badge-new badge badge-pill badge-success">НОВИНКА</span>
+            <span class="badge-discount badge badge-pill badge-warning">-20%</span>
+          </div>
+          <img src="http://blagozvon.ru/upload/iblock/da1/da1ad2c0e83c4e2953dd18bc497403fd.png" alt="Card image cap" data-toggle="popover" data-content="<h5>Духовный жемчуг</h5><p>Книга содержит избранные места из творений Иоанна Златоуста - архиепископа Константинопольского. Святитель Иоанн оставил нам огромное богословское наследие. В своем изъяснении Священного Писания он показывал, как Библия может стать подлинной наставницей человека. И сегодня слова святителя, обращенные к каждому из нас, дышат силой Святого Духа: 'Грех не в нашей природе; мы сподоблены воли и свободы. Ты - мытарь? Можешь сделаться евангелистом. Ты - богохульник? Можешь сделаться апостолом. Ты - разбойник? Можешь приобрести рай. Нет такого греха, который не изглаживался бы покаянием'.</p>">
+        </a>
+        <div class="card-body d-flex flex-column p-2">
+          <a class="card-title text-dark font-weight-bold" href="#">Духовный жемчуг</a>
+          <a class="book-autor card-text flex-grow-1 text-muted" href="#">Святитель Иоанн Златоуст</a>
+          <div class="card-text book-price text-center font-weight-bold my-3">
+            <span class="price-through text-muted font-weight-normal">188 р.</span>
+            &nbsp;&nbsp;150 р.
+            &nbsp;&nbsp;<span class="badge badge-pill badge-warning tetx-mute">-20%</span>
+          </div>
+          <div class="mb-2">
+            <a href="#" class="btn btn-warning" title='В корзину'><i class="fas fa-cart-arrow-down text-muted"></i>&nbsp;Купить</a>
+            <a href="#" class="btn btn-outline-secondary"  title='Отложить товар'><i class="far fa-star text-muted"></i></i></a>
+          </div>
+        </div>
+       </div>
+    </div>
+<!--   2   -->
+    <div class="book-cell col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="card d-flex flex-column justify-content-end text-center border-">
+        <a class="card-book-link d-flex flex-column align-items-center justify-content-end" href="#">
+          <img src="http://blagozvon.ru/upload/iblock/60c/60c9d284c641ce05224b8f4a5a7fecb9.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body d-flex flex-column p-2">
+          <h5 class="card-title">Lorem</h5>
+          <div class="card-text flex-grow-1">Lorem ipsum dolor sit amet</div>
+          <div class="card-text card-price text-center text-primary font-weight-bold mb-3">188 руб.</div>
+          <div><a href="#" class="btn btn-warning">Купить</a></div>
+        </div>
+       </div>
+    </div>
+<!--   3   -->
+    <div class="book-cell col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="card d-flex flex-column justify-content-end text-center border-">
+        <a class="card-book-link d-flex flex-column align-items-center justify-content-end" href="#">
+          <img src="http://blagozvon.ru/upload/iblock/bdc/bdcc1bef93e306dc48aaa06522bdb746.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body d-flex flex-column p-2">
+          <h5 class="card-title">Lorem dolor sit amet</h5>
+          <div class="card-text flex-grow-1">Lorem ipsum dolor sit amet</div>
+          <div class="card-text card-price text-center text-primary font-weight-bold mb-3">188 руб.</div>
+          <div><a href="#" class="btn btn-warning">Купить</a></div>
+        </div>
+       </div>
+    </div>
+<!--   4   -->
+    <div class="book-cell col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="card d-flex flex-column justify-content-end text-center border-">
+        <a class="card-book-link d-flex flex-column align-items-center justify-content-end" href="#">
+          <img src="http://blagozvon.ru/upload/iblock/9f2/9f284a1d935f7c8f8558f16dab37f8d5.png" alt="Card image cap">
+        </a>
+        <div class="card-body d-flex flex-column p-2">
+          <h5 class="card-title">Lorem dolor sit amet</h5>
+          <div class="card-text flex-grow-1">Lorem ipsum dolor sit amet</div>
+          <div class="card-text card-price text-center text-primary font-weight-bold mb-3">188 руб.</div>
+          <div><a href="#" class="btn btn-warning">Купить</a></div>
+        </div>
+       </div>
+    </div>
+    
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://unpkg.com/popper.js@1.14.3/dist/umd/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js'></script><script  src="./script.js"></script>
+
+</body>
+ <script>
+/*$('.card-book-link img').popover({
+  container:  'body',
+  placement:  'right',
+  offset: '50% -50%',
+  html: true,
+  trigger:    'hover'
+  template: '<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+  });*/
+
+  $('.card-book-link img').popover({
+  placement : 'right',
+  trigger: 'click hover',
+  html : true,
+  title : 'О книге &nbsp;<a href="#" class="close" data-dismiss="alert">&times;</a>'
+    });
+    $(document).on("click", ".popover .close" , function(){
+        $(this).parents(".popover").popover('hide');
+    });
+
+ </script>
+</html>
