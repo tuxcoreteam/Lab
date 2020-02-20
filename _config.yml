@@ -3,8 +3,7 @@ title: Pudhina
 description: >
   A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
 
-baseurl: "/Lab" # the subpath of your site, e.g. /blog/
-url: "https://fberato.github.io/Lab/" # the base hostname & protocol for your site
+url: "familiatux.space" # the base hostname & protocol for your site
 
 author:
   fullname: Pudhina
