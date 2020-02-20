@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Família Tux</title>
-<meta name="description" content="Lorem.
+<title> Hello — My name is Pudhina  | Tux</title>
+<meta name="description" content="</> whith 💜 by @familytux
 ">
 
 <link rel="canonical" href="/">
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+<link rel="icon" type="image/jpeg" href="/assets/img/pudhina.jpg"/>
 <link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
 <link rel="stylesheet" href="/assets/css/main.css">
 
@@ -24,11 +24,8 @@
 <div class="navigation">
 <a href="/" class="logo">Tux</a>
 <ul class="menu">
-	<!-- Atualize as paginas de acordo com caminho href especificado o arquivo se encontra ao lado -->
-<li class="menu__entry"><a href="develover.html">DEVELOVER</a></li>
-<li class="menu__entry"><a href="/blog">DREAMJOB</a></li>
-<li class="menu__entry"><a href="book.html">BOOK</a></li>
-<li class="menu__entry"><a href="#">BLOG</a></li>
+<li class="menu__entry"><a href="/resume">Resume</a></li>
+<li class="menu__entry"><a href="/blog">Blog</a></li>
 </ul>
 </div>
 <ul class="social-links">
@@ -38,59 +35,29 @@
 </ul>
 </header>
 <h1 class="page-title">
-<h3 class="page-title__text" id="efeito">FALA DEV</h3>
+<div class="page-title__text">Hello</div>
+<div class="page-title__subtitle">My name is Pudhina</div>
 </h1>
 
-
-<p><img src="/assets/img/mascote.png" id="about-img" /></p>
+<p><img src="/assets/img/pudhina.jpg" id="about-img" /></p>
 
 <div id="describe-text">
-	<p>È por este Blog que ira nascer os melhores programadores.</p>
-	<p>Você que tem muita dificuldade em programar aqui te ajudamos.</p>
-	<p>Na areá <strong>DEVELOVER</strong> você usufluir dos melhores exercicios e se torna um ótimo programador.</p>
+	<p>A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability</p>
+	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p>
 </div>
 
+
+<div class="about">
+<div class="about__devider">*****</div>
+<div class="about__text">
+<strong> Non sunt multiplicanda entia sine necessitate </strong>
+<br>☕ Pudhina theme by Knhash 🛠️
+<br> You can change this text in _includes/page/about.html
+</div>
+</div>
 
 </div>
 <script src="/assets/vendor/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </body>
-<STYle>
-	.page-title__text {
-		position: relative;
-		text-align: center;
-		font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-		font-size: 2rem;
-		color: #070101;
-		height: 80px;
-	}
-	  @keyframes blink {
-		0%, 100% {
-		  opacity: 1;
-		}
-		50% {
-		  opacity: 0;
-		}
-	  }
-	 h3::after {
-		content: '|';
-		opacity: 1;
-		margin-left: 5px;
-		display: inline-block;
-		animation: blink .7s infinite;
-	  }
-
-</STYle>
-<Script>
-	const titulo = document.querySelector("#efeito");
-	 typeWriter(titulo);
-	
-	function typeWriter(elemento) {
-	const textoArray = elemento.innerHTML.split('');
-		elemento.innerHTML = '';
-		for(let i = 0; i < textoArray.length; i++) {
-		  setTimeout(() => elemento.innerHTML += textoArray[i], 75* i);
-		}
-	}
-	</Script>
 </html>
