@@ -42,7 +42,7 @@
       font-weight: 400; }
 
   strong {
-    color: #16a085; }
+    color: #000504; }
 
   .wrapper {
     max-width: 90%;
@@ -100,7 +100,7 @@
   .page-title__subtitle {
     font-weight: 400;
     font-size: 75%;
-    color: #828282; }
+    color: #f8f5f5; }
 
 /* =Post teasers *//*************************************************************/
   .list-posts {
@@ -113,13 +113,13 @@
 
   .post-teaser__title {
     font-size: 100%;
-    color: #828282; }
+    color: #04d4f8; }
 
   .post-teaser__date {
     font-size: 100%;
     float: right;
     vertical-align: middle;
-    color: #828282; }
+    color: #04d4f8; }
 
   .post-teaser__month {
     width: 100%;
@@ -139,8 +139,9 @@
     line-height: 24px; }
 
   .about__devider {
+    color: #000303;
     font-size: 100%;
-    letter-spacing: 9.09px; }
+    letter-spacing: 9.09px;}
 
   .about__text {
     font-size: 100%; }
