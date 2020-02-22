@@ -81,7 +81,9 @@ max-width: 180px;
     margin: 0px;
     margin-top: 6px;
     padding: 0px;
-    list-style-type: none; }
+    list-style-type: none; 
+   display: flexbox;
+  }
 
   .menu__entry {
     display: inline-block;
@@ -238,6 +240,11 @@ max-width: 180px;
       display: block;
       text-align: center;
       width: 100%; }
+    .menu__entry {
+      display: block;
+      text-align: center;
+      width: 100%; 
+    }
 
   }
  /* button fam-tux */
