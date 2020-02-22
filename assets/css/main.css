@@ -77,12 +77,13 @@ max-width: 180px;
 
   .menu {
     color: #828282;
-    font-size: 150%;
+    font-size: 130%;
     margin: 0px;
     margin-top: 6px;
     padding: 0px;
     list-style-type: none; 
    display: flexbox;
+   
   }
 
   .menu__entry {

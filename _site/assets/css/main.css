@@ -9,7 +9,19 @@
   a {
     color: rgb(255, 255, 255);
     font-weight: bold;
-    text-decoration: none; }
+    text-decoration: none;
+  	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	/* display: block; */
+max-width: 180px;
+	text-decoration: none;
+	border-radius: 4px;
+  padding: 20px 30px;
+
+}
 
   p, ul, ol, dl {
     font-size: 100%;
@@ -46,7 +58,9 @@
 
   .wrapper {
     max-width: 90%;
-    margin: 60px auto; }
+    margin: -25px auto;
+   
+  }
 
 /* =Header *//*************************************************************/
   .header {
@@ -63,11 +77,14 @@
 
   .menu {
     color: #828282;
-    font-size: 150%;
+    font-size: 130%;
     margin: 0px;
     margin-top: 6px;
     padding: 0px;
-    list-style-type: none; }
+    list-style-type: none; 
+   display: flexbox;
+   
+  }
 
   .menu__entry {
     display: inline-block;
@@ -224,8 +241,39 @@
       display: block;
       text-align: center;
       width: 100%; }
+    .menu__entry {
+      display: block;
+      text-align: center;
+      width: 100%; 
+    }
 
   }
+ /* button fam-tux */
+
+ .button {
+   position: relative;
+   top: 10px;
+
+ }
+ a.button {
+	color: rgba(30, 22, 54, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.button:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+a.button2 {
+	color: rgba(30, 22, 54, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.button2:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset;
+}
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
   .glitch {
