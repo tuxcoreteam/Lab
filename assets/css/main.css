@@ -249,9 +249,11 @@ max-width: 180px;
   }
  /* button fam-tux */
 
- /* a {
+ .button {
+   position: relative;
+   top: 10px;
 
-} */
+ }
  a.button {
 	color: rgba(30, 22, 54, 0.6);
 	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
