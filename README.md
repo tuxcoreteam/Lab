@@ -12,8 +12,8 @@
 
 # Home
  ![](screen/cap01.png)
-# Dream Job
- ###### Encontre o emprego dos seus sonhos.######
+# Dream Job ###### Encontre o emprego dos seus sonhos.
+ 
  ![](screen/cap02.png)
 # Encontre diversos livros
 ## Area destinada a estudos 
