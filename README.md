@@ -1,6 +1,6 @@
 #  The Blog of Family Tux 🍕
  
- INSTALL
+ # INSTALL JEKYLL
     
     • git clone https://github.com/fberato/Lab.git
     • cd Lab
