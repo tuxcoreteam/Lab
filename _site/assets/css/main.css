@@ -258,9 +258,12 @@
     }
     .button {
       font-size: 50%;
-      
-      
-     
+    }
+    .text p{
+      font-size: 50%;
+    }
+    .page-title p{
+      font-size: 50%;
     }
 
   }
