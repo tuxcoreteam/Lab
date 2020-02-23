@@ -17,16 +17,16 @@
  
  ![](screen/cap02.png)
 # Encontre diversos livros
-## Area destinada a estudos 
+  - Area destinada a estudos 
  ![](screen/cap03.png)
- # Bloga da Família Tux
-  ## Por aqui você aprende tudo muito rápidi
+# Bloga da Família Tux
+  - Por aqui você aprende tudo muito rápidi
  ![](screen/cap04.png)
- # Tux Core Team for Business 
-  ## Nessa areá você pode entrar em contato conosco para contratar o nosso time de programadores
+# Tux Core Team for Business 
+  - Nessa areá você pode entrar em contato conosco para contratar o nosso time de programadores
  ![](screen/cap05.png)
- # About
-  ## Aqui você conhece mais sobre a Família Tux como nasceu a nossa ideia
+# About
+  - Aqui você conhece mais sobre a Família Tux como nasceu a nossa ideia
  ![](screen/cap06.png)
 
 
