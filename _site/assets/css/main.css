@@ -271,6 +271,8 @@
 
  .button {
    position: relative;
+   color: rgba(30, 22, 54, 0.6);
+   background-color: rgba(30, 22, 54, 0.6);
    top: 15px;
    display: inline;
 
