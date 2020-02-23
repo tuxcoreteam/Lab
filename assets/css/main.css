@@ -296,8 +296,10 @@ a.button2:hover {
 }
 /* button start  */
 .bt {
+
   position: relative;
   display:inline-block;
+  
   top: -10px;
   display: inline-block;
   background-color: $yellow;
@@ -320,23 +322,23 @@ a.button2:hover {
 }
 }
 a.bt {
- color: rgba(30, 22, 54, 0.6);
- box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+ color: #f8f5f5;
+ box-shadow: #00ff90 0 0px 0px 2px inset;
 }
 
 a.bt:hover {
- color: rgba(255, 255, 255, 0.85);
- box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+  color: #f8f5f5;
+ box-shadow: #00ff90 0 0px 0px 40px inset;
 }
 
 a.bt {
- color: rgba(30, 22, 54, 0.6);
- box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+ color: #f8f5f5;
+ box-shadow: #00ff90 0 0px 0px 2px inset;
 }
 
 a.bt:hover {
  color: rgba(255, 255, 255, 0.85);
- box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset;
+ box-shadow: #00ff90 0 80px 0px 2px inset;
 }
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
