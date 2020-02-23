@@ -11,6 +11,7 @@
 
 
 # Home
+ - Primeira pagina do nosso Blog sejam todos bem-vindo.
  ![](screen/cap01.png)
 # Dream Job 
  - Encontre o emprego dos seus sonhos. 
@@ -30,7 +31,7 @@
  ![](screen/cap05.png)
 # About
   - Aqui você conhece mais sobre a Família Tux como nasceu a nossa ideia.
-  
+
  ![](screen/cap06.png)
 
 
