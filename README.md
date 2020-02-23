@@ -13,10 +13,10 @@
 # Home
  ![](screen/cap01.png)
 # Dream Job
- **Encontre o emprego dos seus sonhos.**
+ ###### Encontre o emprego dos seus sonhos.######
  ![](screen/cap02.png)
- # Encontre diversos livros
-  ## Area destinada a estudos 
+# Encontre diversos livros
+## Area destinada a estudos 
  ![](screen/cap03.png)
  # Bloga da Família Tux
   ## Por aqui você aprende tudo muito rápidi
