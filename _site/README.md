@@ -13,7 +13,7 @@
 # Home
  ![](screen/cap01.png)
 # Dream Job
- Encontre o emprego dos seus sonhos.
+ • Encontre o emprego dos seus sonhos.
  ![](screen/cap02.png)
  ![](screen/cap03.png)
  ![](screen/cap04.png)
