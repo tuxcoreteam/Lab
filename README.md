@@ -43,6 +43,6 @@
   <li>Giovani</li>
   <li>Otavio Augusto</li>
   <li>Fernanda Noel</li>
- <ul/>
+ <ul>
 
  ![](assets/img/template.jpg)
