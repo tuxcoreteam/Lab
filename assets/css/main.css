@@ -299,6 +299,25 @@ a.button2:hover {
   position: relative;
   display:inline-block;
   top: -10px;
+  display: inline-block;
+  background-color: $yellow;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  font-family: $abel;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $red;
+  box-shadow: 0 3px 0 $red;
+  cursor: pointer;
+  transition: all 100ms linear;
+  &:hover {
+    @include transform(translateY(-4px));
+    box-shadow: 0 7px 0 $red;
+  }
+  &:focus { outline: 0; }
+}
 }
 a.bt {
  color: rgba(30, 22, 54, 0.6);
