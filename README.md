@@ -36,7 +36,7 @@
 
  ![](screen/cap06.png)
 
-# About
+# Credits
  <ul>
   <li>Flavio Liberato</li>
   <li>Erika Lopes</li>
@@ -44,5 +44,5 @@
   <li>Otavio Augusto</li>
   <li>Fernanda Noel</li>
  <ul/>
- 
+
  ![](assets/img/template.jpg)
