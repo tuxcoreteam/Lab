@@ -3,8 +3,12 @@
   body {
     font-family: 'Quicksand', sans-serif;  
     font-size: 100%;
-    color: #012;
-    background: linear-gradient(to right, #ff00ff, #0011ff); }
+    
+    /* background: linear-gradient(to right, #ff00ff, #0011ff);  */
+    background: linear-gradient(-45deg, #ee7752, #b4e73c, #ff00ff, #0011ff);
+	  background-size: 400% 400%;
+	  animation: gradient 15s ease infinite;
+  }
 
   a {
     color: rgb(255, 255, 255);
@@ -273,12 +277,12 @@
    position: relative;
    color: rgba(30, 22, 54, 0.6);
    background-color: rgba(30, 22, 54, 0.6);
-   top: 15px;
+   top: 35px;
    display: inline;
 
  }
  a.button {
-	color: rgba(30, 22, 54, 0.6);
+	color: rgba(255, 255, 255, 0.85);
 	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
 }
 
@@ -341,6 +345,17 @@ a.bt {
 a.bt:hover {
  color: rgba(255, 255, 255, 0.85);
  box-shadow: #00ff90 0 80px 0px 2px inset;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
