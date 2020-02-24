@@ -15,7 +15,7 @@
     
    ![](screen/cap08.png)
 
-  • jekyll server
+  • Open in GNOME Terminal
 
    ![](screen/cap09.png)
 
