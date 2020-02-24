@@ -208,6 +208,10 @@
     margin: 30px auto;
     padding-top: 100px;
    }
+   a:active, a:menu__entry, a:visited { 
+    border: none;
+    outline: none;
+}
 
 /* =Small screen *//*************************************************************/
   @media (max-width: 500px) {
@@ -263,11 +267,9 @@
      outline: none;
      border-style: none;
      font-size: 15px;
+     
     }
-    a:active, a:selected, a:visited { 
-      border: none;
-      outline: none;
-  }
+
     .button {
       font-size: 20px;
     }
