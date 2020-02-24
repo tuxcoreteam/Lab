@@ -9,15 +9,15 @@
 # Second way of installin jekyll 
    • Open in Visual Studio Code
 
-   ![] (screen/cap07.png)
+   ![](screen/cap07.png)
 
   • Open in Visual Studio Code
     
-    ![] (screen/cap08.png)
+    ![](screen/cap08.png)
 
   • jekyll server
 
-    ![] (screen/cap09.png)
+    ![](screen/cap09.png)
 
 # Home
  - Primeira pagina do nosso Blog sejam todos bem-vindo.
