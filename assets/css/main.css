@@ -59,6 +59,8 @@
   .wrapper {
     max-width: 90%;
     margin: -25px auto;
+    outline: none;
+    border-style: none;
    
   }
 
@@ -208,10 +210,7 @@
     margin: 30px auto;
     padding-top: 100px;
    }
-   a:active, a:menu__entry, a:visited { 
-    border: none;
-    outline: none;
-}
+
 
 /* =Small screen *//*************************************************************/
   @media (max-width: 500px) {
