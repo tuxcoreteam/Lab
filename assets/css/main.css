@@ -264,6 +264,10 @@
      border-style: none;
      font-size: 15px;
     }
+    a:active, a:selected, a:visited { 
+      border: none;
+      outline: none;
+  }
     .button {
       font-size: 20px;
     }
