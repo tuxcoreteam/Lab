@@ -52,7 +52,7 @@
   <li>Otavio Augusto</li>
   <li>Fernanda Noel</li>
   <li>Gabriel</li>
-  <li>Jenniffer Marques</li>
+  <li>Jennifer Marques</li>
   <li>Giovani</li>
   
   
