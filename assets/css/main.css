@@ -261,6 +261,8 @@
      /* espaçamento entre ul responsive menu de opções */
      line-height: 35px;
      outline: none;
+     border-style: none;
+     font-size: 15px;
     }
     .button {
       font-size: 20px;
