@@ -20,15 +20,15 @@
  
  ![](screen/cap02.png)
 # Encontre diversos livros
-  - Area destinada a estudos 
+  - Àrea destinada a estudos. 
 
  ![](screen/cap03.png)
-# Bloga da Família Tux
+# Blog da Família Tux
   - Por aqui você aprende tudo muito rápido.
 
  ![](screen/cap04.png)
 # Tux Core Team for Business 
-  - Nessa areá você pode entrar em contato conosco para contratar o nosso time de programadores.
+  - Nessa área você pode entrar em contato conosco para contratar o nosso time de programadores.
 
  ![](screen/cap05.png)
 # About
@@ -40,9 +40,15 @@
  <ul>
   <li>Flavio Liberato</li>
   <li>Erika Lopes</li>
-  <li>Giovani</li>
   <li>Otavio Augusto</li>
   <li>Fernanda Noel</li>
+  <li>Gabriel</li>
+  <li>Jenniffer Marques</li>
+  <li>Giovani</li>
+  
+  
+  
+
   
 
 
