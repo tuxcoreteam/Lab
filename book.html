@@ -15,9 +15,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 body {
   margin: 0;
-  background: linear-gradient(to right, #e2c43b, #ae4bcf);
-  
- }
+  background: linear-gradient(-45deg, #ee7752, #b4e73c, #ff00ff, #0011ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
  
 span {
   position: absolute;
@@ -112,6 +113,17 @@ span {
 .text-muted a:hover {
   color: rgb(104, 84, 2);
   font-size: 50px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 </style>
 
