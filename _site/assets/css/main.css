@@ -279,19 +279,20 @@
  .button {
    position: relative;
    color: rgba(30, 22, 54, 0.6);
-   background-color: rgba(30, 22, 54, 0.6);
+   /* box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset; */
+   background-color: #380152;
    top: 35px;
    display: inline;
 
  }
  a.button {
 	color: rgba(255, 255, 255, 0.85);
-	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+	box-shadow: rgba(49, 22, 54, 0.4) 0 0px 0px 2px inset;
 }
 
 a.button:hover {
 	color: rgba(255, 255, 255, 0.85);
-	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+	box-shadow: rgba(0, 0, 0, 0.7) 0 0px 0px 40px inset;
 }
 
 a.button2 {
@@ -301,7 +302,7 @@ a.button2 {
 
 a.button2:hover {
 	color: rgba(255, 255, 255, 0.85);
-	box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset;
+	box-shadow: rgba(54, 22, 50, 0.7) 0 80px 0px 2px inset;
 }
 /* button start  */
 .bt {
