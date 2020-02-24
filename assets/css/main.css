@@ -258,7 +258,8 @@
       width: 100%; 
       padding-top: 10px;
      padding-bottom: 10px;
-     line-height: 20px;
+     /* espaçamento entre ul responsive menu de opções */
+     line-height: 50px;
      outline: none;
     }
     .button {
