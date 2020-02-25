@@ -1,12 +1,12 @@
 #  The Blog of Family Tux 🍕
  
- # INSTALL JEKYLL
+ # RUN JEKYLL
     
     • git clone https://github.com/fberato/Lab.git
     • cd Lab
     • jekyll server
 
-# Second way of installin jekyll 
+# Second way of run jekyll 
    • Open in Visual Studio Code
 
    ![](screen/cap07.png)
@@ -16,6 +16,9 @@
    ![](screen/cap08.png)
 
   • Open in GNOME Terminal
+    
+    
+    • jekyll server
 
    ![](screen/cap09.png)
 
@@ -52,7 +55,7 @@
   <li>Otavio Augusto</li>
   <li>Fernanda Noel</li>
   <li>Gabriel</li>
-  <li>Jenniffer Marques</li>
+  <li>Jennifer Marques</li>
   <li>Giovani</li>
   
   

@@ -3,8 +3,6 @@
   body {
     font-family: 'Quicksand', sans-serif;  
     font-size: 100%;
-    
-    /* background: linear-gradient(to right, #ff00ff, #0011ff);  */
     background: linear-gradient(-45deg, #ee7752, #b4e73c, #ff00ff, #0011ff);
 	  background-size: 400% 400%;
 	  animation: gradient 15s ease infinite;
@@ -19,8 +17,7 @@
 	  -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
 	  -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
 	  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-	  /* display: block; */
-    max-width: 180px;
+	  max-width: 180px;
 	  text-decoration: none;
 	  border-radius: 4px;
     padding: 20px 30px;
@@ -62,6 +59,8 @@
   .wrapper {
     max-width: 90%;
     margin: -25px auto;
+    outline: none;
+    border-style: none;
    
   }
 
@@ -212,6 +211,7 @@
     padding-top: 100px;
    }
 
+
 /* =Small screen *//*************************************************************/
   @media (max-width: 500px) {
     p, ul, ol, dl {
@@ -260,9 +260,17 @@
       text-align: center;
       width: 100%; 
       padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 20px;
+     padding-bottom: 10px;
+     /* espaçamento entre ul responsive menu de opções */
+     line-height: 20px;
+     outline: none;
+     border-style: none;
+     font-size: 15px;
+     border:none!important;
+     text-decoration:none;
+     
     }
+
     .button {
       font-size: 20px;
     }

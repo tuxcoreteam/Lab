@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
   <title>BOOK</title>
-  <meta name="description" content="Blog 💜 TuxLab">
+  <meta name="description" content="Pergunte, compartilhe, cresça 💜">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
 
@@ -15,9 +15,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 body {
   margin: 0;
-  background: linear-gradient(to right, #e2c43b, #ae4bcf);
-  
- }
+  background: linear-gradient(-45deg, #ee7752, #b4e73c, #ff00ff, #0011ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
  
 span {
   position: absolute;
@@ -113,9 +114,22 @@ span {
   color: rgb(104, 84, 2);
   font-size: 50px;
 }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 </style>
 
 <body>
+
 <!-- partial:index.partial.html -->
 <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
 
