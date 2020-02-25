@@ -7,7 +7,7 @@
     • jekyll server
 
 # Second way of run jekyll 
-   • Clone in GitHub Desktop
+   • Open in Visual Studio Code
 
    ![](screen/cap07.png)
 
