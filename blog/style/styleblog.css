@@ -21,7 +21,7 @@ body {
   font-weight: 400;
   letter-spacing: 0;
   padding: 1rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .main{
@@ -90,7 +90,7 @@ img {
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .card_content {
