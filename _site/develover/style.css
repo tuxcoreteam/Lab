@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+*::-moz-selection {
+  background: #ffff66;
+}
+
+*::selection {
+  background: #ffff66;
+}
+
+/*
+  Grid CSS
+*/
+
+.row {
+}
+
+.row:after {
+	display: block;
+	content: "";
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.row:after {
+	display: block;
+	content: "";
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+/*
+  Main CSS
+*/
+
+header {
+  height: 400px;
+}
+
+.wrapper-logo {
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.logo {
+  width: 350px;
+  height: 100px;
+  border: 1px solid black;
+  border-bottom: none;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.logo > p {
+  word-spacing: 20px;
+  font-size: 3.5rem;
+  line-height: 2;
+  text-shadow: 
+   0.11rem -0.11rem #ffff66,
+   -0.11rem -0.11rem #fa72a8,
+   0 .2rem #33eedd; 
+}
+
+/*
+  AFTER EFFECT
+*/
+
+.after-logo {
+  width: 115px;
+  position: absolute;
+  top: 87%;
+  left: 34%;
+}
+
+.after-text {
+  word-spacing: 4px;
+  font-size: 1.2rem;
+}
+
+/*
+  AFTER EFFECT > LINE BOTTOM
+*/
+
+.logo:before,
+.logo:after {
+  content: "";
+  width: 95px;
+  height: 50px;
+  position: absolute;
+  bottom: -50px;
+}
+
+.logo:before {
+  border-top: 1px solid black;
+  left: 0;
+}
+
+.logo:after {
+  border-top: 1px solid black;
+  right: 0;
+}
+
+/*
+  AFTER EFFECT > HEART ANIMATE
+*/
+
+.heart{
+  height: 25px;
+  width: 25px;
+  -webkit-animation: pounding .7s linear infinite alternate;
+          animation: pounding .7s linear infinite alternate;
+}
+
+.half{ 
+  width:25px; 
+  height:25px;
+}
+
+.half:before,
+.half:after {
+  position: absolute;
+  content: "";
+  left: 12px; top: 2px;
+  width: 12px; height: 20px;
+  background: #fc2e5a;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+  background: #fc2e5a;
+}
+
+.half:before{
+  left:0px;
+  -webkit-transform:rotate(45deg);
+          transform:rotate(45deg);
+  -webkit-transform-origin:100% 100%;
+          transform-origin:100% 100%;
+}
+
+@-webkit-keyframes pounding{
+  100%{
+    -webkit-transform:scale(1.2);
+            transform:scale(1.2);
+  }
+}
+
+@keyframes pounding{
+  100%{
+    -webkit-transform:scale(1.2);
+            transform:scale(1.2);
+  }
+}
+
+/*
+@keyframes pounding-fast{
+  100%{
+    transform:scale(1.2);
+  }
+}
+.wrapper-logo:hover .half {
+  animation: pounding-fast .2s linear infinite alternate;
+}
+*/
