@@ -1,0 +1,62 @@
+.tooltip {
+    pointer-events:none; /*let mouse events pass through*/
+    opacity:0;
+    transition: opacity 0.3s;
+    text-shadow:1px 1px 0px gray;
+}
+
+div.tooltip {
+    background: lightblue;
+    border:solid gray;
+    position: absolute;
+    max-width: 8em;
+    text-align:center;
+}
+div.fixed {
+    position:fixed;
+}
+g.tooltip:not(.css) {
+  fill:currentColor;
+}
+g.tooltip rect {
+    fill: lightblue;
+    stroke: gray;
+}
+circle:hover + g.tooltip.css {
+  opacity:1;
+}
+svg {
+    margin:10px 20px;
+    width:calc(100% - 40px);
+    height:500px;
+    max-height:100%;
+    border: solid 1px black;
+    background-color: #222;
+    overflow:visible; 
+    /*allow tooltips to spill into margins */
+}
+button{
+  display:block;
+  margin: 0 auto 20px;
+  padding: 0.5em;
+  box-shadow: 0 0 2px 2px navy;
+}
+
+h1{
+  text-align:center;
+
+}
+body {
+  max-width: 40em;
+  margin-left:auto;
+  margin-right:auto;
+  background: lightyellow;
+}
+p, dl {
+  margin: 0.5em 1.5em;
+}
+dt {
+  font-weight:bold;
+  display:run-in;
+  padding-right:1em;
+}

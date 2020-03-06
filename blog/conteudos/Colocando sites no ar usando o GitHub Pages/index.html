@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Positioning a Tooltip on an SVG</title>
+  <link rel="stylesheet" href="/blog/conteudos/Colocando sites no ar usando o GitHub Pages/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Positioning a Tooltip on a SVG</h1>
+<p>
+  SVG graphics are made up of DOM elements, and can respond to user events: for example, a mouseover event listener can be used to trigger a tooltip display.  But getting that tooltip where you want it is complicated by the complex SVG coordinate system.  Mousing over any of the coloured circles below will cause six tooltips to appear (seven including the browser's title text), each positioned with a different method.
+</p>
+<svg viewBox="0 0 400 300">
+    <g id="circle-group" 
+       transform="rotate(10) translate(20,-5)">
+      
+        <circle r="25" cx="50" cy="50" fill="red"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect x="-3em" y="-45" width="6em" height="1.25em"/>
+          <text y="-45" dy="1em" text-anchor="middle" fill="red">
+            SVG/CSS Tip</text>
+        </g>
+      
+        <circle r="25" cx="200" cy="50" fill="LightSeaGreen"/>
+        <g class="tooltip css" transform="translate(200,50)">
+          <rect x="-3em" y="-45" width="6em" height="1.25em"/>
+          <text y="-45" dy="1em" text-anchor="middle" fill="LightSeaGreen">
+            SVG/CSS Tip</text>
+        </g>
+      
+        <circle r="25" cx="350" cy="50" fill="orange"/>
+        <g class="tooltip css" transform="translate(350,50)">
+          <rect x="-3em" y="-45" width="6em" height="1.25em"/>
+          <text y="-45" dy="1em" text-anchor="middle" fill="orange">
+            SVG/CSS Tip</text>
+        </g>
+      
+        <circle r="25" cx="50" cy="200" fill="cornflowerblue"/>
+        <g class="tooltip css" transform="translate(50,200)">
+          <rect x="-3em" y="-45" width="6em" height="1.25em"/>
+          <text y="-45" dy="1em" text-anchor="middle" fill="cornflowerblue">
+            SVG/CSS Tip</text>
+        </g>
+      
+        <circle r="25" cx="200" cy="200" fill="DarkOrchid"/>
+        <g class="tooltip css" transform="translate(200,200)">
+          <rect x="-3em" y="-45" width="6em" height="1.25em"/>
+          <text y="-45" dy="1em" text-anchor="middle" fill="DarkOrchid">
+            SVG/CSS Tip</text>
+        </g>
+      
+        <circle r="25" cx="350" cy="200" fill="ForestGreen"/>
+        <g class="tooltip css" transform="translate(350,200)">
+          <rect x="-3em" y="-45" width="6em" height="1.25em"/>
+          <text y="-45" dy="1em" text-anchor="middle" fill="ForestGreen">
+            SVG/CSS Tip</text>
+        </g>
+        
+    </g>
+    <g transform="scale(1.2)">
+        <g class="tooltip exact">
+            <rect width="4em" height="1.25em"/>
+            <text dy="1em" x="2em" text-anchor="middle">
+              SVG Tip</text>
+        </g>
+    </g>
+    <g transform="scale(0.9)">
+        <g class="tooltip mouse">
+            <!-- The rectangle and text are positioned 
+                 to the right and above the <g> element's
+                 0,0 point, purely to help with all the 
+                 overlapping tooltips! -->
+          <rect width="7em" height="2.5em"  
+                  x="-7em" y="-2.5em"/>
+          <text x="-3.5em" y="-2.5em" text-anchor="middle">
+            <tspan dy="1em">Mouse-tracking</tspan>
+            <tspan x="-3.5em" dy="1.25em">SVG Tip</tspan>
+          </text>
+        </g>
+    </g>
+</svg>
+<div class="absolute tooltip">Absolute HTML Tip</div>
+<div class="fixed tooltip">Fixed HTML Tip</div>
+<div class="mouse tooltip" >Mouse-tracking HTML Tip</div>
+<button id="wiggle" type="button">Wiggle the SVG</button>
+
+<p>A quick run-down of the pros and cons of each type of tooltip:</p>
+<dl>
+  <dt>Title text tooltips</dt>
+  <dd><i>Pro:</i> Quick and easy, just insert a <code>&lt;title></code> element within the SVG element that you want to trigger the tooltip.  (Some browsers will display a tooltip if you use the title attribute, similar to how HTML title tooltips work, but Webkit browsers require you to use an SVG <code>&lt;title></code> element.)  They are also semantic and screen-reader friendly and can be hard-coded in Javascript-free SVG. <br/>
+  <i>Con:</i> Ugly and out of your control.
+  </dd>
+  <dt>SVG tooltips</dt>
+  <dd><i>Pro:</i> Contained within your SVG code, scale with the SVG.  <br/>
+  <i>Con:</i> An opaque background requires a separate rectangle element, which is difficult to size properly with the text while remaining responsive to user's font preferences (although you can query the text length with Javascript, and size the rectangle accordingly, I didn't do that here); line breaks have to be hard-coded as separately-positioned text spans.  Webkit browsers don't respect "overflow:visible" on SVG, so the tip will be cropped if it overlaps the edge of the image.
+  </dd>
+  <dt>HTML tooltips</dt>
+  <dd><i>Pro:</i> The preferred choice; an absolutely positioned <code>&lt;div&gt;</code> that can contain formatted, wrapping text.  <br/>
+  <i>Con:</i> You have to figure out how to convert between the SVG coordinate system and the page coordinates you use for absolutely positioning your tooltip.  But that's why you're here.  It's all commented up in the code!
+  </dd>
+</dl>
+<p>And the pros and cons of each positioning method:</p>
+<dl>
+  <dt>CSS hover-revealed tooltips</dt>
+  <dd><i>Pro:</i> No Javascript required, position them where you want them when you create the SVG graphic.  <br/>
+  <i>Con:</i> Requires a separate tooltip for every object, so your code gets repetitive.  The tip has to be a sibling of the element that triggers it, so it has to be an SVG tip, with the corresponding formatting limitations.  For pro or con, it will also be caught up in any transformations (e.g. rotations, scale) in that coordinate system.
+  </dd>
+  <dt>Mouse-tracking tooltips</dt>
+  <dd><i>Pro:</i> Easier to position, and the user can move the mouse if they block something underneath.  <br/>
+  <i>Con:</i> Kind of annoying, floating around difficult to read.  More importantly, they react to every mousemove event, slowing down the code.
+  </dd>
+  <dt>Positioned tooltips</dt>
+  <dd><i>Pro:</i> Neat and exact, and you can position them in an appropriate location relative to the underlying content.  <br/>
+  <i>Con:</i> If the user doesn't agree with your determination of the appropriate position, they can't do anything about it.
+  </dd>
+</dl>
+<p> If you want to confirm that the positions of the tooltips adjust to the current state of the SVG, press "Wiggle the SVG" to randomly shift and tilt the circles or resize the browser to change the SVG scale.  Note, however, that if you have any tooltips visible during the shift, I don't currently have any code to update their positions as things move.</p>
+<p><b><i>P.S.</i></b>  If you're in "Edit pen" view and are only getting the CSS tooltip, press the big blue "Run" button on the Javascript panel. </p>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.3.10/d3.min.js'></script><script  src="/blog/conteudos/Colocando sites no ar usando o GitHub Pages/script.js"></script>
+
+</body>
+</html>
