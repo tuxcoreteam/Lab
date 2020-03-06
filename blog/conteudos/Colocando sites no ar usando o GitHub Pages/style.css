@@ -1,3 +1,4 @@
+
 .tooltip {
     pointer-events:none; /*let mouse events pass through*/
     opacity:0;
@@ -6,7 +7,7 @@
 }
 
 div.tooltip {
-    background: lightblue;
+    background: rgb(133, 0, 241);
     border:solid gray;
     position: absolute;
     max-width: 8em;
