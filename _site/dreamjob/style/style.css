@@ -462,3 +462,10 @@ a {
 	text-align: center;
 	padding: 0.313em 0;
 }
+.btn {
+	
+		color: rgba(255, 255, 255, 0.85);
+		box-shadow: rgba(49, 22, 54, 0.4) 0 0px 0px 2px inset;
+
+
+}
