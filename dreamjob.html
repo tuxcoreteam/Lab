@@ -1,84 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title> DREAM JOB</title>
-<meta name="description" content="Pergunte, compartilhe, cresça 💜">
+  <meta charset="UTF-8">
+  <title>CodePen - Expanding Overlay Effect</title>
+  <link rel="stylesheet" href="./style.css">
 
-<link rel="canonical" href="/blog.html">
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
-<link rel="stylesheet" href="/assets/css/main.css">
-
-<link rel="stylesheet" href="/assets/vendor/highlight/styles/agate.css">
-
-<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
-<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
-
 <body>
-<div class="wrapper">
-<header class="header">
-<div class="navigation">
-<a href="/" class="logo">TuxLab</a>
-<ul class="menu">
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Expanding Overlay Effect</title>
+		<meta name="description" content="Expanding Overlay Effect: Revealing content using CSS clip" />
+		<meta name="keywords" content="css, css3, clip, rect(), overlay, expand, fixed, effect, responsive" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/climacons.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<header class="clearfix">
+				<h1>Expanding Overlay Effect<span>Revealing content using CSS clip</span></h1>	
+			</header>
+			<div class="main">
 
-    <li class="menu__entry"><a href="develover.html">DEVELOVER</a></li>
-    <li class="menu__entry"><a href="dreamjob.html">DREAMJOB</a></li>
-    <li class="menu__entry"><a href="biblioteca/biblioteca.html">BOOK</a></li>
-    <li class="menu__entry"><a href="blog.html">BLOG</a></li>
-    <li class="menu__entry"><a href="company.html">TUX FOR COMPANY</a></li>
-    <li class="menu__entry"><a href="about.html">SOBRE</a></li>
-</ul>
-</div>
-<ul class="social-links">
+				<ul id="rb-grid" class="rb-grid clearfix">
+					<li class="icon-clima-1 rb-span-2">
+						<h3>Lisbon</h3><span class="rb-temp">21°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Lisbon</span><span class="icon-clima-1"></span><span>21°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-1"></span><span>19°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-2"></span><span>19°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-2"></span><span>18°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-2"></span><span>17°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-1"></span><span>19°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-1"></span><span>22°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-1"></span><span>18°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-2">
+						<h3>Paris</h3><span class="rb-temp">11°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Paris</span><span class="icon-clima-2"></span><span>11°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-1"></span><span>12°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-4"></span><span>11°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-4"></span><span>10°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-4"></span><span>9°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-2"></span><span>10°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-2"></span><span>10°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-2"></span><span>12°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-1">
+						<h3>Belgrade</h3><span class="rb-temp">15°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Belgrade</span><span class="icon-clima-1"></span><span>15°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-3"></span><span>16°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-3"></span><span>17°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-3"></span><span>15°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-4"></span><span>13°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-3"></span><span>10°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-1"></span><span>11°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-1"></span><span>12°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-4">
+						<h3>Moscow</h3><span class="rb-temp">2°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Moscow</span><span class="icon-clima-4"></span><span>1°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-4"></span><span>-1°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-6"></span><span>-2°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-6"></span><span>-6°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-6"></span><span>-4°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-5"></span><span>-5°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-6"></span><span>-6°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-6"></span><span>-8°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-1">
+						<h3>New Delhi</h3><span class="rb-temp">17°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">New Delhi</span><span class="icon-clima-1"></span><span>17°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-1"></span><span>18°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-8"></span><span>19°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-8"></span><span>16°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-10"></span><span>17°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-10"></span><span>18°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-2"></span><span>17°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-1"></span><span>17°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-1">
+						<h3>Tel Aviv</h3><span class="rb-temp">23°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Tel Aviv</span><span class="icon-clima-1"></span><span>22°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-1"></span><span>23°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-2"></span><span>22°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-2"></span><span>22°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-2"></span><span>21°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-1"></span><span>21°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-2"></span><span>21°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-2"></span><span>24°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-2">
+						<h3>Cairo</h3><span class="rb-temp">21°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Cairo</span><span class="icon-clima-2"></span><span>21°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-1"></span><span>22°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-1"></span><span>20°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-1"></span><span>21°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-1"></span><span>21°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-2"></span><span>21°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-2"></span><span>22°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-2"></span><span>23°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-11">
+						<h3>New York</h3><span class="rb-temp">3°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">New York</span><span class="icon-clima-11"></span><span>3°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-11"></span><span>3°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-11"></span><span>-1°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-11"></span><span>-2°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-7"></span><span>1°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-7"></span><span>0°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-11"></span><span>2°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-11"></span><span>3°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-2 rb-span-2">
+						<h3>San Francisco</h3><span class="rb-temp">15°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">San Francisco</span><span class="icon-clima-2"></span><span>15°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-2"></span><span>16°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-2"></span><span>14°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-2"></span><span>13°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-2"></span><span>15°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-2"></span><span>15°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-1"></span><span>16°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-1"></span><span>15°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-2">
+						<h3>Tokyo</h3><span class="rb-temp">8°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Tokyo</span><span class="icon-clima-2"></span><span>8°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-1"></span><span>7°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-2"></span><span>6°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-1"></span><span>8°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-1"></span><span>8°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-2"></span><span>6°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-2"></span><span>5°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-2"></span><span>5°C</span></div>
+							</div>
+						</div>
+					</li>
+					<li class="icon-clima-4 rb-span-4">
+						<h3>Sydney</h3><span class="rb-temp">25°C</span>
+						<div class="rb-overlay">
+							<span class="rb-close">close</span>
+							<div class="rb-week">
+								<div><span class="rb-city">Sydney</span><span class="icon-clima-4"></span><span>28°C</span></div>
+								<div><span>Mon</span><span class="icon-clima-4"></span><span>24°C</span></div>
+								<div><span>Tue</span><span class="icon-clima-4"></span><span>26°C</span></div>
+								<div><span>Wed</span><span class="icon-clima-2"></span><span>27°C</span></div>
+								<div><span>Thu</span><span class="icon-clima-2"></span><span>30°C</span></div>
+								<div><span>Fri</span><span class="icon-clima-8"></span><span>31°C</span></div>
+								<div><span>Sat</span><span class="icon-clima-8"></span><span>29°C</span></div>
+								<div><span>Sun</span><span class="icon-clima-8"></span><span>29°C</span></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/jquery.fittext.js"></script>
+		<script src="js/boxgrid.js"></script>
+		<script>
+			$(function() {
 
+				Boxgrid.init();
+				
 
+			});
+		</script>
+	</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
 
-</ul>
-</header>
-<h1 class="page-title">
-<div class="page-title__text">DREAM J<i class="fas fa-code"></i>B</div>
-<div class="page-title__subtitle">ENCONTRE AS MELHORES OPORTUNIDADES</div>
-</h1>
-
-<div>
-
-
-<h4 class="post-teaser__month">
-<strong>Sempre atualizado com as 10 melhores oportunidades de trabalho na área da tecnologia</strong>
-</h4>
-<ul class="list-posts">
-
-<li class="post-teaser">
-<a href="/general/2016/05/20/welcome-to-jekyll.html">
-<span class="post-teaser__title">Desenvolvedor Júnior</span>
-<span class="post-teaser__date">20 May 2016</span>
-</a>
-</li>
-
-<li class="post-teaser">
-<a href="/general/2016/05/20/my-example-post.html">
-<span class="post-teaser__title">A nível Júnior</span>
-<span class="post-teaser__date">20 May 2016</span>
-</a>
-</li>
-
-</ul>
-
-<h4 class="post-teaser__month">
-<strong>
-
-<div class="about">
-<div class="about__devider">*****</div>
-
-</div>
-
-</div>
-<script src="/assets/vendor/highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script src="https://kit.fontawesome.com/650351a64a.js" crossorigin="anonymous"></script>
 </body>
 </html>
