@@ -298,8 +298,13 @@
 	.rb-grid li.rb-span-2,
 	.rb-grid li.rb-span-4 {
 		width: 100%;
-		height: 10em;
-		text-align: left;
+		height: 100%;
+		/* text-align: left; */ */
+	}
+	.rb-grid li h3  {
+		width: 100%;
+		height: 100%;
+		font-size: 20px;
 	}
 
 	.rb-grid li[class^="icon-"]:before,
@@ -461,11 +466,4 @@ a {
 	font-weight: bold;
 	text-align: center;
 	padding: 0.313em 0;
-}
-.btn {
-	
-		color: rgba(255, 255, 255, 0.85);
-		box-shadow: rgba(49, 22, 54, 0.4) 0 0px 0px 2px inset;
-
-
 }
