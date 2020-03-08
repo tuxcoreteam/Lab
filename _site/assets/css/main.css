@@ -218,6 +218,11 @@
       font-size: 100%;
       line-height: 1.6; }
 
+    .clearfix h1 span {
+      height: 50%;
+      width: 50%;
+    }
+
     .wrapper {
       width: 90%;
       margin: 15px auto; }
