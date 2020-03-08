@@ -8,109 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous"> 
- <link rel="stylesheet" href="./style.css">
-
- <style>
-	 body {
-	
-	margin: 0;
-	background: linear-gradient(-45deg, #ee7752, #b4e73c, #ff00ff, #0011ff);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-}
-
-
-.wrapper {
-	max-width: 400px;
-	margin: 0 auto;
-}
-
-h1 {
-	text-align: center;
-	margin: 60px 0 40px 0;
-	font-size: 1.5em;
-	color: rgb(255, 255, 255);
-	font-family: sans-serif;
-	text-transform: uppercase;
-}
-
-.lista-item {
-	background: white;
-	border-radius: 4px;
-	margin-bottom: 20px;
-	padding: 10px;
-	box-shadow: 0 2px 6px rgba(50,50,90,.1);
-}
-
-.faq-titulo {
-	cursor: pointer;
-	padding: 10px;
-	font-size: 1.4em;
-	font-family: monospace;
-	color: #8F6ED5;
-}
-
-.faq-titulo::before {
-	content: '';
-	display: inline-block;
-	height: 12px;
-	width: 24px;
-	margin-right: 10px;
-	background: #BEB0F4;
-}
-
-.faq-titulo::after {
-	content: '+';
-	float: right;
-	transition: transform .3s ease;
-}
-
-.faq-conteudo {
-	padding: 10px;
-	color: #6B7C93;
-	font-family: Helvetica;
-	font-size: .875em;
-	line-height: 1.4em;
-	display: none;
-	list-style: none;
-}
-a {
-	color: #6B7C93;
-}
-a:link
-{
-text-decoration:none;
-
-}
-
-.trigger-input {
-	 display: none;
-}
-
-.trigger-input:checked + .trigger-wrapper .faq-conteudo {
-	display: block;
-}
-
-.trigger-input:checked + .trigger-wrapper .faq-titulo::after {
-	transform: rotate(45deg) scale(1.08);
-}
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
- </style>
-
+ <link rel="stylesheet" href="./style/style-biblioteca.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="wrapper">
+<div class="wrapper animated fadeInRight">
 	<h1>Escolha a Stack  <i class="fas fa-book-open"></i></h1>
 	
 	<div class="lista-item">
