@@ -583,3 +583,31 @@ a.bt:hover {
   /* Custom */
   .go-home {
     text-align: center; }
+
+    /* DREAMJOB */
+
+    .clearfix {
+      display: block;
+      font-size: 20px;
+      margin: 10px;
+      margin-left: 50px;
+    }
+    
+
+    h1 span {
+      display: block;
+      font-size: 15px;
+      margin: 10px;
+      margin-left: 50px;
+    }
+
+    .rb-grid li h3 {
+      font-size: 1.6em;
+      font-weight: 100;
+  }
+  @media screen and (max-width: 63.125em) {
+  .rb-grid li, .rb-grid li.rb-span-2, .rb-grid li.rb-span-4 {
+      width: 100%;
+      height: 100%;
+      font-size: 50%;
+  }
