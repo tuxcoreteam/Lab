@@ -113,16 +113,18 @@
 
 /* =Titles *//*************************************************************/
   .page-title {
-    margin: 30px auto;
-    text-align: center; }
+    margin: 60px auto;
+    text-align: center;
+    font-size: 100%;
+   }
 
   .page-title__text {
     font-weight: 700;
-    font-size: 150%; }
+    font-size: 250%; }
 
   .page-title__subtitle {
     font-weight: 400;
-    font-size: 75%;
+    font-size: 175%;
     color: #f8f5f5; }
 
 /* =Post teasers *//*************************************************************/
@@ -275,10 +277,10 @@
       font-size: 20px;
     }
     .text p{
-      font-size: 50%;
+      font-size: 100%;
     }
     .page-title p{
-      font-size: 50%;
+      font-size: 100%;
     }
 
   }
@@ -586,7 +588,4 @@ a.bt:hover {
 
     /* DREAMJOB */
      
-    h1 {
-      font-size: 15px;
-      left: 150px;
-    }
+ 
