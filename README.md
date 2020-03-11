@@ -56,9 +56,14 @@
   <li>Erika Lopes</li>
   <li>Otavio Augusto</li>
   <li>Fernanda Noel</li>
-  <li>Gabriel</li>
-  <li>Jennifer Marques</li>
+  <li>Gabriel Toledo</li>
+  <li>Jeniffer Marques</li>
+  <li>Elisabeth Farias</li>
+  <li>Mayra Amaral</li>
+  <li>Manuela Bernadino</li>
   <li>Giovani</li>
+  <li>Diana Regina</li>
+  <li>Artur Santos Almeida</li>
   
   
   
