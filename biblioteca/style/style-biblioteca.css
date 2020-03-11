@@ -7,6 +7,9 @@
 	  background-size: 400% 400%;
 	  animation: gradient 15s ease infinite;
   }
+  /* .menu .fas  {
+    position: relative;
+  } */
   .menu a {
     color: rgb(255, 255, 255);
   }
@@ -696,8 +699,9 @@ transform: rotate(45deg) scale(1.08);
 @media screen and (max-width: 63.125em) {
 	
 	.wrapper {
-		width: 50%;
-		height: 50%;
+		width: 90%;
+    height: 80%;
+    margin: auto 5px;
 		
     }
     .lista-item {
