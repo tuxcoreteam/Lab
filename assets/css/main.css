@@ -9,6 +9,9 @@
     margin: 0;
     padding: 0;
   }
+  .logo .fab {
+    font-size: 40px;
+  }
 
   a {
     color: rgb(255, 255, 255);
@@ -80,6 +83,7 @@
     display: inline-flex;
     margin: 0px;
     margin-top: 6px;
+    white-space: nowrap;
    
   }
 
@@ -230,7 +234,8 @@
     .social-links {
       display: block;
       text-align: left;
-      width: 100%; }
+      width: 100%;
+      white-space: nowrap; }
 
     .social-links {
       font-size: 200%;
