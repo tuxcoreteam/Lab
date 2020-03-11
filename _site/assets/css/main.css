@@ -5,7 +5,12 @@
     font-size: 100%;
     background: linear-gradient(-45deg, #ee7752, #b4e73c, #ff00ff, #0011ff);
 	  background-size: 400% 400%;
-	  animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+    margin: 0;
+    padding: 0;
+  }
+  .logo .fab {
+    font-size: 40px;
   }
 
   a {
@@ -75,10 +80,11 @@
     font-size: 300%;
     font-weight: 700;
     color: #000303;
-    display: block;
+    display: inline-flex;
     margin: 0px;
     margin-top: 6px;
-    
+    white-space: nowrap;
+   
   }
 
   .menu {
@@ -114,15 +120,17 @@
 /* =Titles *//*************************************************************/
   .page-title {
     margin: 30px auto;
-    text-align: center; }
+    text-align: center;
+    font-size: 100%;
+   }
 
   .page-title__text {
     font-weight: 700;
-    font-size: 150%; }
+    font-size: 250%; }
 
   .page-title__subtitle {
     font-weight: 400;
-    font-size: 75%;
+    font-size: 175%;
     color: #f8f5f5; }
 
 /* =Post teasers *//*************************************************************/
@@ -218,11 +226,6 @@
       font-size: 100%;
       line-height: 1.6; }
 
-    .clearfix h1 span {
-      height: 50%;
-      width: 50%;
-    }
-
     .wrapper {
       width: 90%;
       margin: 15px auto; }
@@ -230,8 +233,9 @@
     .navigation,
     .social-links {
       display: block;
-      text-align: center;
-      width: 100%; }
+      text-align: left;
+      width: 100%;
+      white-space: nowrap; }
 
     .social-links {
       font-size: 200%;
@@ -280,10 +284,10 @@
       font-size: 20px;
     }
     .text p{
-      font-size: 50%;
+      font-size: 100%;
     }
     .page-title p{
-      font-size: 50%;
+      font-size: 100%;
     }
 
   }
@@ -588,3 +592,7 @@ a.bt:hover {
   /* Custom */
   .go-home {
     text-align: center; }
+
+    /* DREAMJOB */
+     
+ 

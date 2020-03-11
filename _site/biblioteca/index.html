@@ -1,47 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Família Tux</title>
+<title>Encontre livros</title>
 <title>BLOG</title>
 <meta name="description" content="Pergunte, compartilhe, cresça 💜">
 <link rel="canonical" href="/">
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
 <link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/biblioteca/style/style-biblioteca.css">
 <link rel="stylesheet" href="/assets/vendor/highlight/styles/agate.css">
 <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
-<div class="wrapper ">
+<!-- <div class="wrapper"> -->
 <header class="header">
 <div class="navigation">
-<a href="/" class="logo animated bounceInRight">TuxLab</a><a href="https://github.com/fberato/Lab" class="logo animated bounceInRight" target="_blank">
-	<i class="fab fa-github"></i>
-</a>
-
+<a href="/" class="logo animated bounceInRight" >TuxLab</a>
 
 <ul class="menu animated fadeInRight">
 	
 
-<li class="menu__entry"><a href="/develover/index.html">DEVELOVER</a></li>
-<li class="menu__entry"><a href="/dreamjob/index.html">DREAMJOB</a></li>
-<li class="menu__entry"><a href="/biblioteca/index.html">BOOK</a></li>
-<li class="menu__entry"><a href="/blog/index.html">BLOG</a></li>
-<li class="menu__entry"><a href="/tuxforcompany/index.html">TUX FOR COMPANY</a></li>
-<li class="menu__entry"><a href="/sobre/index.html">SOBRE</a></li>
+	<li class="menu__entry"><a href="/develover/index.html">DEVELOVER</a></li>
+	<li class="menu__entry"><a href="/dreamjob/index.html">DREAMJOB</a></li>
+	<li class="menu__entry"><a href="/biblioteca/index.html">BOOK <i class="fas fa-rocket"></i></a></li>
+	<li class="menu__entry"><a href="/blog/index.html">BLOG</a></li>
+	<li class="menu__entry"><a href="/tuxforcompany/index.html">TUX FOR COMPANY</a></li>
+	<li class="menu__entry"><a href="/sobre/index.html">SOBRE</a></li>
 
 
 </ul>
+
+
+<div class="wrapper animated fadeInRight">  
+	<h1>Escolha a Stack  <i class="fas fa-book-open"></i></h1>
+	
+	<div class="lista-item">
+		<input class="trigger-input" id="faq-titulo-1" type="checkbox">
+		<div class="trigger-wrapper">
+			<label for="faq-titulo-1">
+				<h2 class="faq-titulo"><a href="logica.html">Lógica de Programação <i class="fas fa-cube"></i></a></h2>
+			</label>
+		</div>
+	</div>
+
+	<div class="lista-item">
+		<input class="trigger-input" id="faq-titulo-2" type="checkbox">
+		<div class="trigger-wrapper">
+			<label for="faq-titulo-2">
+				<h2 class="faq-titulo"><a href="front.html">Front-End <i class="fab fa-bootstrap"></i></a></h2>
+				<!-- <h2 class="faq-titulo">Front-End </h2> -->
+			</label>
+			<!-- <p class="faq-conteudo"></p> -->
+		</div>
+	</div>
+	
+	<div class="lista-item">
+		<input class="trigger-input" id="faq-titulo-3" type="checkbox">
+		<div class="trigger-wrapper">
+			<label for="faq-titulo-3">
+				<h2 class="faq-titulo">Java <i class="fab fa-java"></i></h2>
+			</label>
+			<p class="faq-conteudo"></p>
+		</div>
+	</div>
 </div>
 
 
-
-<ul class="social-links">
+<!-- <ul class="social-links">
 
 
 
@@ -49,10 +81,10 @@
 </header>
 <h1 class="page-title">
 <h3 class="page-title__text" id="efeito">FALA DEV 💜</h3>
-</h1>
+</h1> -->
 
 
-<p><img src="/assets/img/mascote.png" id="about-img" /></p>
+<!-- <p><img src="/assets/img/mascote.png" id="about-img" /></p>
 
 <div id="describe-text">
 	<p>È por este Blog que ira nascer os melhores programadores.</p>
@@ -62,12 +94,12 @@
 </div>
 
 
-</div>
+</div> -->
 
 <script src="/assets/vendor/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 <script src="https://kit.fontawesome.com/650351a64a.js" crossorigin="anonymous"></script>
-</body>
+<!-- </body>
 <STYle>
 	.page-title__text {
 		position: relative;
@@ -105,5 +137,5 @@
 		  setTimeout(() => elemento.innerHTML += textoArray[i], 75* i);
 		}
 	}
-	</Script>
+	</Script> -->
 </html>
