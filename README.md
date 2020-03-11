@@ -69,6 +69,6 @@
  <ul>
   
 
- ![](assets/img/template.jpg)
+ ![](assets/img/template..jpg)
  <em>Família Tux 2020 ©</em>
 # 
