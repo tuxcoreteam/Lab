@@ -1,8 +1,8 @@
 # DOCUMENTAÇÃO BLOG OF FAMILY TUX
 
  
- # RUN JEKYLL
-   • Contribua
+ # RUN JEKYLL / CONTRIBUA
+   
     
     • git clone https://github.com/fberato/Lab.git
     • cd Lab
