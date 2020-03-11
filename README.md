@@ -2,6 +2,7 @@
 
  
  # RUN JEKYLL
+   • Contribua
     
     • git clone https://github.com/fberato/Lab.git
     • cd Lab
