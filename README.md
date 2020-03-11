@@ -1,6 +1,6 @@
-# SEJA MUITO BEM-VINDO A NOSSA DOCUMENTAÇÃO
-#  The Blog of Family Tux 🍕
- # CONTRIBUIA
+# SEJA MUITO BEM-VINDO A NOSSA DOCUMENTAÇÃO BLOG OF FAMILY TUX
+
+ 
  # RUN JEKYLL
     
     • git clone https://github.com/fberato/Lab.git
