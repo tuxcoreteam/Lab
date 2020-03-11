@@ -1,6 +1,8 @@
-#  The Blog of Family Tux 🍕
+# DOCUMENTAÇÃO BLOG OF FAMILY TUX 🦄💜💙
+
  
- # RUN JEKYLL
+ # RUN JEKYLL / CONTRIBUA
+   
     
     • git clone https://github.com/fberato/Lab.git
     • cd Lab
@@ -54,9 +56,14 @@
   <li>Erika Lopes</li>
   <li>Otavio Augusto</li>
   <li>Fernanda Noel</li>
-  <li>Gabriel</li>
-  <li>Jennifer Marques</li>
+  <li>Gabriel Toledo</li>
+  <li>Jeniffer Marques</li>
+  <li>Elisabeth Farias</li>
+  <li>Mayra Amaral</li>
+  <li>Manuela Bernadino</li>
   <li>Giovani</li>
+  <li>Diana Regina</li>
+  <li>Artur Santos Almeida</li>
   
   
   
@@ -65,8 +72,8 @@
 
 
  <ul>
-  
 
- ![](assets/img/template.jpg)
- <em>Família Tux 2020 ©</em>
-# 
+
+ ![](assets/img/template..jpg)
+ <em></em>
+
