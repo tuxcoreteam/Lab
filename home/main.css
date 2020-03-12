@@ -8,7 +8,7 @@
     animation: gradient 15s ease infinite;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    
   }
   .page-title__text {
 		position: relative;
@@ -258,7 +258,11 @@
     p, ul, ol, dl {
       font-size: 100%;
       line-height: 1.6; }
-
+    .made_by {
+      position: relative;
+      padding-top: 4%;
+      top: 120px;
+    }
     .wrapper {
       width: 90%;
       margin: 15px auto; }
