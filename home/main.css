@@ -8,12 +8,13 @@
     animation: gradient 15s ease infinite;
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
   .page-title__text {
 		position: relative;
 		text-align: center;
 		font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-		font-size: 2rem;
+		font-size: 1rem;
 		color: #070101;
 		height: 80px;
 	}
@@ -235,13 +236,17 @@
     margin-bottom: 3%;
   }
 
-  #describe-text {
+  #describe-text  {
       display: block;
       text-align: center;
       width: 100%; }
+  #describe-text p {
+    font-size: 14px;
+    
+  }
    .text p{
     font-weight: 400;
-    font-size: 75%;
+    font-size: 55%;
     color: #f8f5f5;
     margin: 30px auto;
     padding-top: 100px;
