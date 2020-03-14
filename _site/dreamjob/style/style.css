@@ -1,3 +1,17 @@
+
+body {
+font-family: 'Quicksand', sans-serif;  
+font-size: 100%;
+background: linear-gradient(-45deg, #ee7752, #b4e73c, #ff00ff, #0011ff);
+background-size: 1200% 1400%;
+animation: gradient 15s ease infinite;
+
+}
+  h1 {
+font-size: 15px;
+left: 150px;
+}
+
 @font-face {
     font-family:'ClimaconsRegular';
     src: url('../font/climacons-webfont.eot');
@@ -7,8 +21,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
 
 
 [class^="icon-"]:before,
@@ -36,7 +48,8 @@
 .icon-clima-9:before { content: '\0039'; }  '9' 
 .icon-clima-10:before { content: '\0030'; }  '0' 
 .icon-clima-11:before { content: '\0070'; } 'p'
-*/.rb-grid {
+*/
+.rb-grid {
 	list-style: none;
 	text-align: center;
 	margin: 0 auto;
@@ -395,7 +408,7 @@ a {
 	font-weight: 700;
 	color: #333;
 	float: left;
-	/* top: 40%; */
+	
 }
 
 .container > header h1 span {
@@ -406,7 +419,7 @@ a {
 }
 
 
-/* Header Style */
+
 .codrops-top {
 	line-height: 2.5;
 	font-size: 0.688em;
@@ -439,7 +452,7 @@ a {
 	display: block;
 }
 
-/* Demo Buttons Style */
+
 .codrops-demos {
 	float: right;
 	padding-top: 0.625em;
