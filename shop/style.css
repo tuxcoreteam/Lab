@@ -13,6 +13,10 @@ body {
 	animation: gradient 15s ease infinite;
 	
 }
+img {
+	margin: 12px -32px -14px;
+   }
+   
 a {
 	color: rgb(255, 255, 255);
 	font-weight: bold;
@@ -579,7 +583,8 @@ div.shadow{
 	   /* left: -4%; */
 	   margin: 320px 212px 242px -67px;
 	}
-	#product-card {
+	img {
+		margin: 12px -32px -14px;
 
 	}
 	
