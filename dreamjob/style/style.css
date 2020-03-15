@@ -104,9 +104,14 @@ left: 150px;
 }
 
 .rb-grid li h3 {
-	font-size: 1.6em;
-	font-weight: 100;
+	margin: 0 auto;
+	font-size: 1.0em;
+	/* font-weight: 100; */
 	display: inline;
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+	
 }
 
 .rb-grid li[class^="icon-"]:before,
