@@ -572,9 +572,9 @@ div.shadow{
    #make-3D-space {
 	   height: 100%;
 	   position: absolute;
-	   top: 80%;
-	   left: -4%;
-	   margin: 0 auto;
+	   /* top: 80%; */
+	   /* left: -4%; */
+	   margin: 320px 212px 242px -67px;
 	}
 	
 
