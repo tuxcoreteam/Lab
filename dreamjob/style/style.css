@@ -16,6 +16,7 @@ animation: gradient 15s ease infinite;
 	display: ruby;
 	
 }
+
 .btn-lg {
     padding: .1rem 1rem;
     font-size: 1.00rem;
@@ -25,8 +26,8 @@ animation: gradient 15s ease infinite;
 }
 
 .btn-outline-primary {
-    color: #007bff;
-    background-color: transparent;
+    color: #006eff;
+    /* background-color: transparent; */
     background-image: none;
     border-color: #007bff;
 }
@@ -36,11 +37,7 @@ font-size: 15px;
 left: 150px;
 }
 
-.rb-grid li h3 {
-	
-    font-size: 5px;
-    font-weight: 100;
-}
+
 
 @font-face {
     font-family:'ClimaconsRegular';
@@ -107,7 +104,7 @@ left: 150px;
 }
 
 .rb-grid li h3 {
-	font-size: 0.6em;
+	font-size: 1.6em;
 	font-weight: 100;
 	display: inline;
 }
