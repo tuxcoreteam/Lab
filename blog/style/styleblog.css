@@ -47,6 +47,7 @@ p, ul, ol, dl {
   margin: -25px auto;
   outline: none;
   border-style: none;
+  font-size: 13px;
 }
 
 .header {
