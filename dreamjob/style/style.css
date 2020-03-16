@@ -1,67 +1,35 @@
 
-body {
-font-family: 'Quicksand', sans-serif;  
-font-size: 100%;
-background: linear-gradient(-45deg, #ee7752, #b4e73c, #ff00ff, #0011ff);
-background-size: 1200% 1400%;
-animation: gradient 15s ease infinite;
+body{
+ font-family: 'Quicksand', sans-serif;  
+ font-size: 100%;
+ background: linear-gradient(-45deg, #ee7752, #b4e73c, #ff00ff, #0011ff);
+ background-size: 1200% 1400%;
+animation: gradient 15s ease infinite;}
 
+.btn-copy{
+ background-color: #38AFDD;
+ border: transparent;
+ border-bottom: 2px solid #0086B7;
+ border-radius: 2px;
+ padding: 10px;
+ min-width: 100px;
+color: #fff;}
+
+.btn-copy:hover, .btn-copy:focus{
+background-color: #48A1C1;
+border-bottom: 2px solid #38AFDD;
+/*transition cross browser*/
+transition: all .3s ease-in;
+-webkit-transition: all .3s ease-in;
+-moz-transition:all .3s ease-in;
+-o-transition: all .3s ease-in;}
+.text {
+	position: relative;
+	top: 60px;
 }
-.rb-grid {
-	padding: 12px;
-}
-
-/* butãocopy */
-
-.btn {
-	background-color: white;
-	margin: 10px;
-	-webkit-appearance: button;
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: buttontext;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    background-color: buttonface;
-    box-sizing: border-box;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: buttonface;
-    border-image: initial;
-	
-} */
-
-.btn-lg {
-    padding: .1rem 1rem;
-    font-size: 1.00rem;
-    line-height: 1.1;
-	border-radius: .4rem;
-	
-}
-
-.btn-outline-primary {
-    color: #006eff;
-    /* background-color: transparent; */
-    background-image: none;
-    border-color: #007bff;
-}
-
-  h1 {
+h1{
 font-size: 15px;
-left: 150px;
-}
-
-
+left: 150px;}
 
 @font-face {
     font-family:'ClimaconsRegular';
@@ -70,8 +38,7 @@ left: 150px;
          url('../font/climacons-webfont.woff') format('woff'),
          url('../font/climacons-webfont.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;
-}
+    font-style: normal;}
 
 
 [class^="icon-"]:before,
@@ -121,6 +88,8 @@ left: 150px;
 
 .rb-grid li.rb-span-2 {
 	width: 49%;
+	height: 49%;
+	top: 50px;
 }
 
 .rb-grid li.rb-span-4 {
