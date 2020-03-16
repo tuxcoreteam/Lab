@@ -592,3 +592,86 @@ div.shadow{
    
 }
 }   
+
+/* BUYNOW */
+
+.button {
+	position: relative;
+	color: rgba(30, 22, 54, 0.6);
+	/* box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset; */
+	background-color: #380152;
+	top: 35px;
+	display: inline;
+ 
+  }
+  a.button {
+	 color: rgba(0, 153, 255, 0.85);
+	 box-shadow: rgba(49, 22, 54, 0.4) 0 0px 0px 2px inset;
+ }
+ 
+ a.button:hover {
+	 color: rgba(0, 0, 0, 0.85);
+	 box-shadow: rgba(0, 0, 0, 0.7) 0 0px 0px 40px inset;
+ }
+ 
+ a.button2 {
+	 color: rgba(30, 22, 54, 0.6);
+	 box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+ }
+ 
+ a.button2:hover {
+	 color: rgba(255, 255, 255, 0.85);
+	 box-shadow: rgba(54, 22, 50, 0.7) 0 80px 0px 2px inset;
+ }
+ .bt {
+
+	position: relative;
+	display:inline-block;
+	margin: 520px 60px;
+	/* top: -10px; */
+	display: inline-block;
+	background-color: $yellow;
+	padding: 15px 40px;
+
+	border: none;
+	border-radius: 30px;
+	font-family: $abel;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: $red;
+	box-shadow: 0 3px 0 $red;
+	cursor: pointer;
+	transition: all 100ms linear;
+	&:hover {
+	  @include transform(translateY(-4px));
+	  box-shadow: 0 7px 0 $red;
+	}
+	&:focus { outline: 0; }
+  }
+  }
+  a.bt {
+   color: #000000;
+   box-shadow: #00ff90 0 0px 0px 2px inset;
+  }
+  
+  a.bt:hover {
+	color: #f8f5f5;
+   box-shadow: #00ff90 0 0px 0px 40px inset;
+  }
+  
+  a.bt {
+   color: #000000;
+   box-shadow: #00ff90 0 0px 0px 2px inset;
+  }
+  
+  a.bt:hover {
+   color: rgba(255, 255, 255, 0.85);
+   box-shadow: #00ff90 0 80px 0px 2px inset;
+  }
+
+  .bt i {
+	  display: inline;
+	  color: rgb(174, 0, 255);
+	  padding: 10px;
+  }
