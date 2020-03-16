@@ -13,6 +13,18 @@ body {
 	animation: gradient 15s ease infinite;
 	
 }
+.make-3D-space {
+	position: relative;
+    perspective: 800px;
+    width:240px;
+    height:400px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:140px;
+    left: 20%;	
+    margin-left:-167px;
+}
 img {
 	margin: 12px -32px -14px;
    }
@@ -576,7 +588,7 @@ div.shadow{
 	 border:none!important;
 	 text-decoration:none;
    }
-   #make-3D-space {
+   .make-3D-space {
 	   height: 100%;
 	   position: absolute;
 	   /* top: 80%; */
